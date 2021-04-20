@@ -1,0 +1,306 @@
+.button_container {
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2px;
+}
+
+/*colors*/
+.secondary_color {
+  background-color: var(--ui-color-primary-orange-dark2);
+  color: var(--ui-color-white);
+}
+.primary_color {
+  background-color: var(--ui-color-primary-green-dark2);
+  color: var(--ui-color-white);
+}
+.gray_button {
+  background-color: var(--ui-color-gray-dark2);
+  color: var(--ui-color-white);
+}
+.white_button {
+  background-color: var(--ui-color-white);
+  color: var(--ui-color-gray-medium);
+  border: 1px solid var(--ui-color-gray-medium);
+}
+.white_button i{
+  color: var(--ui-color-gray-medium); 
+}
+
+/*color hover*/
+.secondary_hover:hover {
+  background-color: var(--ui-color-primary-orange-dark3);
+}
+.primary_hover:hover {
+  background-color: var(--ui-color-primary-green-dark3);
+}
+.gray_hover:hover {
+  background-color: var(--ui-color-gray-dark3);
+}
+.white_hover:hover {
+  color: var(--ui-color-gray-dark4);
+  border: 1px solid var(--ui-color-gray-dark4);
+}
+
+/* text colors*/
+.secondary_text {
+  color: var(--ui-color-primary-orange-dark4);
+}
+.primary_text {
+  color: var(--ui-color-primary-green-dark4);
+}
+.gray_text {
+  color: var(--ui-color-gray-dark2);
+}
+.white_text {
+  background-color: var(--ui-color-white);
+  color: var(--ui-color-gray-medium);
+  border: 1px solid var(--ui-color-gray-medium);
+}
+
+/* Large button */
+.large_button {
+  /*position: absolute;*/
+  width: 340px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.12em;
+}
+
+@media (max-width: 425px) {
+  .large_button {
+    width: 280px;
+  }
+}
+
+/* large button 1*/
+.large_button1 {
+  /*position: absolute;*/
+  width: 280px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.8em;
+}
+
+/* Medium button*/
+.medium_button {
+  /*position: absolute;*/
+  width: 168px;
+  height: 30px;
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+/* plus icon */
+.plus_icon i {
+  font-size: 10px;
+  font-weight: 900;
+  padding-bottom: 8px;
+  padding-right: 4px;
+}
+
+/* loading icon */
+.medium_button .loading_icon {
+  width: 30px;
+  height: 30px;
+  right: 3px;
+  top: 0px;
+  padding-top: 4px;
+  align-items: center;
+}
+
+.medium_button .loading_icon i {
+  top: 8px;
+  left: 2px;
+  font-size: 14px;
+}
+
+/* share button */
+.medium_button_share {
+  /*position: absolute;*/
+  width: 168px;
+  height: 30px;
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+  align-items: center;
+}
+
+/* angle-up icon */
+.medium_button_share .angleup_icon {
+  /*position: absolute;*/
+  text-align: center;
+  padding-left: 10px;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 0px;
+}
+
+.medium_button_share .angleup_icon i {
+  text-align: center;
+  font-size: 20px;
+}
+.medium_button2 {
+  /*position: absolute;*/
+  width: 130px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.08rem;
+}
+
+/* small button*/
+.small_button {
+  /*position: absolute;*/
+  width: 118px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* right angle */
+.right_icon {
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  top: 2px;
+}
+.right_icon i {
+  position: relative;
+  font-weight: 500;
+  left: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* small button back*/
+.small_button_back {
+  /*position: absolute;*/
+  width: 118px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+/* left angle */
+.left_icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 2px;
+}
+.left_icon i {
+  position: relative;
+  font-weight: 500;
+  right: 2px;
+  font-size: 16px;
+}
+
+/* small2 button */
+.small2_button {
+  /*position: absolute;*/
+  width: 94px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  /* letter-spacing: 0.03rem; */
+}
+
+/* extra small button */
+.extra_small_button {
+  /*position: absolute;*/
+  width: 90px;
+  height: 18px;
+  border-radius: 12px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.03rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+/* check icon */
+.check_icon i {
+  font-size: 10px;
+  font-weight: 900;
+  padding-bottom: 7px;
+  padding-right: 4px;
+}
+
+/* extra small button */
+.extra_small_button1 {
+  /*position: absolute;*/
+  width: 48px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/* Text Button */
+
+.text_button {
+  outline: none;
+  border: none !important;
+  background: transparent !important;
+  width: 118px;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.text_button .angledown_icon {
+  position: absolute;
+  right: 5px;
+  top: -7px;
+}
+
+.text_button .angledown_icon i {
+  position: relative;
+  font-weight: 500;
+  left: 6px;
+  font-size: 18px;
+}

@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.center_content {
+  display: flex;
+  min-height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+  padding: 0px 15px;
+}
+
+.content {
+  width: 100%;
+}

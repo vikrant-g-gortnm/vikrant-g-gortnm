@@ -1,0 +1,25 @@
+.width {
+  max-width: auto;
+  max-height: 500px;
+}
+
+.cardContent {
+  display: flex;
+  padding: 10px 0px 0px 10px;
+}
+
+.cardContent > div,
+.cardContent > img {
+  margin: 1px;
+  padding: 4px;
+}
+
+.underline {
+  border: 1px solid var(--ui-color-gray-pale1);
+}
+
+.contentScroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 60%;
+}

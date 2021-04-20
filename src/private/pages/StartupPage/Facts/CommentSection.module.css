@@ -1,0 +1,26 @@
+.comments_label {
+  position: absolute;
+  top: -21px;
+  left: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--color-gray-medium);
+}
+
+.comments_list {
+  border-top: 1px solid var(--color-gray-light);
+  padding-top: 14px;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.comment_item {
+  background: var(--color-message-bg);
+  display: block;
+  padding: 4px 12px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+  white-space: pre-wrap;
+}

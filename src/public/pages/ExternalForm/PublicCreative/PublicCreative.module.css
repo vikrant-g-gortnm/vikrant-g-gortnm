@@ -1,0 +1,7 @@
+.sectionName {
+  margin-top: 30px;
+  font-size: 28px;
+  position: relative;
+  /*bottom: -8px;*/
+  color: var(--color-secondary);
+}

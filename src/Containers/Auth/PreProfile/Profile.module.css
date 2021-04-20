@@ -1,0 +1,35 @@
+.dots_container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  border-radius: 20px;
+  /*cursor: pointer;*/
+  background: var(--color-gray-light);
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+.dot_active {
+  background: var(--color-gray-medium);
+}
+
+.cards_container {
+  /*min-height: 500px;*/
+  /*position: relative;*/
+}
+
+.message_box {
+  /*margin-bottom: 30px;*/
+  margin-bottom: 10px;
+}
+
+.bottom_box {
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
+  /*padding: 20px;*/
+}

@@ -1,0 +1,73 @@
+/* .option_delete_container {
+  position: absolute;
+  left: 12px;
+  font-size: 18px;
+  color: var(--color-primary);
+  top: 5px;
+  cursor: pointer;
+}
+
+.delete_tag_group {
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  font-size: 10px;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.list_order {
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.list_order_button {
+  color: var(--color-primary);
+}
+
+.order_up {
+}
+
+.order_down {
+}
+ */
+/* Funnel Groups */
+
+.funnel_tag_input {
+  border: 2px dashed var(--color-gray-light);
+  padding: 7px 115px 7px 35px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.funnel_group_footer {
+  position: relative;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.option_save {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  color: var(--color-primary);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Create funnel group */
+
+.create_funnel {
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.submit_button {
+  position: relative;
+  text-align: right;
+  margin-right: 2px;
+  margin-top: 10px;
+}

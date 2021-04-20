@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+}
+
+.content {
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.loader:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.7;
+}
+
+.loader i {
+  color: var(--color-gray-medium);
+}
+
+.empty_list {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid var(--color-gray-light);
+  color: var(--color-gray-medium);
+}
+
+.container td {
+  padding: 10px 10px;
+  position: relative;
+}
+
+.container td:first-child {
+  padding-right: 0;
+}
+
+.container td:last-child {
+  /*padding-right: 0;*/
+}
+
+.container thead {
+  white-space: nowrap;
+}
+
+.container thead td {
+  padding: 12px 12px;
+  border-left: 1px solid var(--color-gray-light);
+}
+
+.container thead td:first-child {
+  border-left: none;
+}
+
+.container thead td div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container thead {
+  font-size: 14px;
+  color: var(--color-gray-medium);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+}
+
+.container tbody {
+  font-size: 15px;
+}
+
+.container tbody tr {
+  border-top: 1px solid var(--color-gray-light);
+}
+
+.container tbody tr:last-child {
+  /*border-bottom: 1px solid var(--color-gray-pale);*/
+}
+
+.no_head tbody tr:first-child {
+  border-top: none;
+}
+
+.no_margin {
+  margin: 0;
+}
+
+.sort_icon {
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.background_clicker {
+  /*background: yellow;*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.actual_content {
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive_sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  .responsive_md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .responsive_lg {
+    display: none;
+  }
+}

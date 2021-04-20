@@ -1,0 +1,45 @@
+.container {
+  padding: 20px;
+  background: white;
+  border-radius: 7px;
+  padding-bottom: 2px;
+  margin: 10px 2px 50px 2px;
+  position: relative;
+  border: 1px solid var(--color-gray-light);
+}
+
+.no_margin .content {
+  margin: -20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  min-width: 100%;
+}
+
+.card_label {
+  position: absolute;
+  top: -22px;
+  left: 0px;
+  font-size: 12px;
+}
+
+.ghost {
+}
+
+.modal_footer {
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 15px;
+  }
+
+  .content {
+    padding-bottom: 0px !important;
+  }
+
+  .no_margin .content {
+    margin: -15px !important;
+  }
+}

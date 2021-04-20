@@ -1,0 +1,77 @@
+/* The switch - the box around the slider */
+.switch {
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+  width: 85px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--ui-color-white);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0 1px var(--ui-color-gray-dark5);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 43px;
+  top: 1px;
+  bottom: 4px;
+  left: 2px;
+  background-color: var(--ui-color-red);
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--ui-color-white);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--ui-color-gray-dark5);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: 13px;
+  background-color: var(--ui-color-primary-green-dark2);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 5px;
+}
+
+/*  */
+.onGraphColor {
+  color: var(--ui-color-primary-green-dark2);
+  font-size: 20px;
+}
+
+.offGraphColor {
+  font-size: 20px;
+  color: var(--ui-color-red);
+}

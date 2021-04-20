@@ -1,0 +1,26 @@
+.share_title {
+  font-size: 18px;
+}
+
+.share_description {
+  color: var(--color-gray-medium);
+  padding: 14px 0px;
+  font-size: 14px;
+}
+
+.icon_item {
+  color: var(--color-gray-light);
+  padding: 0px 5px;
+}
+
+.action_link {
+  color: var(--color-primary);
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 14px;
+}

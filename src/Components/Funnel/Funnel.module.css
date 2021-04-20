@@ -1,0 +1,16 @@
+.funnel_tag_container {
+  text-align: center;
+  position: relative;
+}
+
+.funnel_tag {
+  background: var(--color-gray-light);
+  color: white;
+  margin: auto;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.funnel_tag_active {
+  background: var(--color-primary);
+}

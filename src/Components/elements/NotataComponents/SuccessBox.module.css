@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 7px;
+  color: var(--color-green);
+  background: rgba(71, 131, 57, 0.1);
+}
+
+.title_style {
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 10px;
+}
+
+.content {
+}

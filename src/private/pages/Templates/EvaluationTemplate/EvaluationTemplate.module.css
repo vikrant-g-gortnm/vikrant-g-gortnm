@@ -1,0 +1,21 @@
+.section_style {
+  border-bottom: 1px solid;
+}
+
+.delete_option {
+  position: absolute;
+  top: 14px;
+  right: 17px;
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.delete_bucket {
+  position: relative;
+  left: 6px;
+  color: var(--color-primary);
+  font-size: 18px;
+  cursor: pointer;
+}

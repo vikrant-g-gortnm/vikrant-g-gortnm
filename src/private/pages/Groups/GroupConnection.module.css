@@ -1,0 +1,140 @@
+.header_comp {
+  color: white;
+  position: relative;
+  background-color: var(--color-secondary);
+  padding: 14px;
+  padding-left: 25px;
+  margin-left: -20px;
+  margin-top: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.sub_header {
+  color: var(--color-gray-medium);
+  margin-bottom: 20px;
+  padding: 5px;
+  line-height: 2;
+}
+
+.facts_container {
+}
+
+.facts_section_container {
+  margin-bottom: 20px;
+}
+
+.facts_section_header {
+  color: var(--color-secondary);
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.facts_section_description {
+}
+
+.facts_question_container {
+  margin-bottom: 20px;
+  font-weight: var(--font-weight-regular);
+}
+
+.facts_question_header {
+}
+
+.facts_question_description {
+  font-size: 14px;
+  color: var(--color-gray-medium);
+}
+
+.facts_comments_list {
+}
+
+.facts_comments_label {
+}
+
+.facts_comment_item {
+}
+
+.facts_answer {
+  color: var(--color-primary);
+  white-space: pre-wrap;
+}
+
+.facts_answer_link {
+  display: inline-block;
+  color: white;
+  background: var(--color-primary);
+  margin: 2px 0px;
+  padding: 2px 7px;
+  border-radius: 2px;
+  text-decoration: none;
+  line-break: anywhere;
+}
+
+.subjectiveScore_container {
+  display: flex;
+  justify-content: space-between;
+}
+.subjectiveScore_name {
+}
+.subjectiveScore_value {
+  color: var(--color-orange);
+}
+
+.comment_each {
+  background: var(--color-message-bg);
+  /*display: inline-block;*/
+  padding: 4px 12px;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  white-space: pre-wrap;
+}
+
+.no_answer {
+  color: var(--color-gray-medium);
+}
+
+.small_traffic_light {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-right: 6px;
+}
+
+.question_comments {
+  background: var(--color-message-bg);
+  /*display: inline-block;*/
+  padding: 2px 12px;
+  border-radius: 7px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: var(--color-gray-dark);
+  white-space: pre-wrap;
+}
+
+/*.link_tag {*/
+/*  background: #ff6869;*/
+/*}*/
+
+/*.link_tag a {*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*}*/
+
+.link_extend {
+  text-align: right;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--color-primary);
+  padding-bottom: 10px;
+}

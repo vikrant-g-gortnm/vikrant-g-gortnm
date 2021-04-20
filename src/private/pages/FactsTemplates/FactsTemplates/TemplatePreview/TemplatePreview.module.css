@@ -1,0 +1,14 @@
+.header_message {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+  /*border-top: 1px solid var(--color-gray-light);*/
+  /*border-bottom: 1px solid var(--color-gray-light);*/
+  /*padding: 20px 0px;*/
+}
+
+.noEdit {
+  font-size: 12px;
+  color: var(--color-gray-medium);
+  font-style: italic;
+}

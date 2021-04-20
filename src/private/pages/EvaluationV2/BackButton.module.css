@@ -1,0 +1,24 @@
+.container {
+  border: none;
+  outline: none;
+  background: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  color: #71d0bd;
+  position: absolute;
+  left: -20px;
+  font-size: 18px;
+  top: 3px;
+}
+
+.label {
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #969ba3;
+}

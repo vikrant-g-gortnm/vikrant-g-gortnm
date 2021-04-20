@@ -1,0 +1,9 @@
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

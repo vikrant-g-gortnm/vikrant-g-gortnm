@@ -1,0 +1,8 @@
+.error {
+  color: var(--color-primary);
+  font-size: 12px;
+  text-align: right;
+  position: relative;
+  top: -6px;
+  right: 4px;
+}

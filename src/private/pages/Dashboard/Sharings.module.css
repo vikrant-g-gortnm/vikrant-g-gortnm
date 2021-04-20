@@ -1,0 +1,74 @@
+.list_item {
+  padding: 10px 0px;
+  padding-left: 38px;
+  font-weight: var(--font-weight-regular);
+  position: relative;
+}
+
+.list_icon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+
+.group_list_item {
+}
+
+.sharing_list_item {
+}
+
+.time_stamp {
+  font-size: 10px;
+}
+
+.highlight_1,
+.highlight_1 a {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.highlight_2 {
+  font-weight: var(--font-weight-bold);
+  /*color: var(--color-primary);*/
+}
+
+.mark_all {
+  color: var(--color-primary);
+  text-align: right;
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 11px;
+  top: 7px;
+}
+
+.list_expander {
+  color: var(--color-primary);
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 38px;
+  cursor: pointer;
+}
+
+.mark_as_seen {
+  font-size: 12px;
+  color: var(--color-secondary);
+  padding-top: 5px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.delete_creative {
+  font-size: 12px;
+  color: var(--color-primary);
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}

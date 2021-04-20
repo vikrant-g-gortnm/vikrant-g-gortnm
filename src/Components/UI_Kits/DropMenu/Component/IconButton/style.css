@@ -1,0 +1,30 @@
+.icon-btn-div {
+  padding: 1px;
+  cursor: pointer;
+}
+
+.click-btn {
+  text-decoration: none;
+  color: grey;
+  background-color: brown;
+  margin-left: 5px;
+}
+
+.click-btn-after {
+  color: red;
+  margin-left: 5px;
+}
+
+i {
+  color: grey;
+}
+
+.i-after {
+  margin-right: 5px;
+  color: red !important;
+}
+
+.icon {
+  margin-right: 5px;
+  color: grey;
+}

@@ -1,0 +1,18 @@
+.container {
+  display: inline-block;
+  width: 100%;
+}
+
+.input_class {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}
+
+.container input[type="text"]::placeholder,
+.container input[type="password"]::placeholder,
+.container textarea::placeholder {
+  color: var(--color-gray-medium);
+}

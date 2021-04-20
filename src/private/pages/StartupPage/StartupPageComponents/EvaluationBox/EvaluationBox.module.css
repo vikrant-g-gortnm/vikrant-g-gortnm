@@ -1,0 +1,282 @@
+.container {
+  margin-top: -12px;
+  font-size: 15px;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.group_of_evaluations {
+  padding: 20px 10px;
+}
+
+.edit_container {
+  width: 40px;
+}
+
+.each_template_style {
+  border-bottom: 1px solid var(--color-gray-pale);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  line-height: 2;
+  background: var(--color-gray-pale);
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.header_style {
+}
+
+.line_style {
+  display: flex;
+  justify-content: space-between;
+  /*border-bottom: 1px solid white;*/
+}
+
+.footer_style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body_style {
+}
+
+.each_style {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-gray-medium);
+}
+
+.header_style {
+  position: relative;
+  /*border-bottom: 1px solid white;*/
+}
+
+.footer_style {
+  font-weight: var(--font-weight-bold);
+}
+
+.template_summary_line {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+}
+
+.each_evaluation_line {
+  /*color: var(--color-gray-medium)*/
+  font-weight: var(--font-weight-regular);
+}
+
+.score_container {
+  display: flex;
+  justify-content: flex-end;
+  /*width: 300px;*/
+  width: 235px;
+}
+/*
+.from_group {
+
+}
+
+.from_group span {
+
+}
+
+.from_group a,
+.from_group a:hover,
+.from_group a:active {
+  color: var(--color-primary)
+}
+
+
+
+*/
+.timeStamp {
+  color: var(--color-gray-medium);
+  font-size: 12px;
+  position: relative;
+  top: 3px;
+
+  width: 115px;
+  text-align: right;
+}
+
+.altScore {
+  color: var(--color-gray-medium);
+  font-size: 12px;
+  position: relative;
+  top: 3px;
+
+  width: 115px;
+  text-align: right;
+}
+
+.eye_toggle {
+  color: var(--color-gray-medium);
+  cursor: pointer;
+  width: 25px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.template_summary_line .score_style {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-orange);
+  font-size: 16px;
+}
+
+.each_evaluation_line .score_style {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-turquoise);
+  font-size: 16px;
+}
+
+/*.sub_list .score_style {*/
+
+.sub_list {
+  color: var(--color-gray-medium);
+}
+
+.sub_list,
+.sub_list .score_style {
+  font-weight: var(--font-weight-regular) !important;
+}
+
+.expanded_list_container {
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed var(--color-gray-pale);
+}
+
+.hide_line {
+  position: relative;
+  opacity: 0.5;
+}
+
+.hide_line:after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  background: var(--color-gray-medium);
+  left: 10px;
+  bottom: 50%;
+  width: 100%;
+  pointer-events: none;
+  margin-left: -6px;
+}
+
+.hide_line .score_style {
+  color: var(--color-gray-medium);
+}
+
+.score_style {
+  width: 60px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.each_style .score_style {
+  color: var(--color-turquoise);
+}
+
+.header_style .score_style,
+.footer_style .score_style {
+  /*  font-weight: var(--font-weight-bold);
+  color: var(--color-orange);
+  font-size: 16px;*/
+}
+
+.header_style .score_style {
+  /* position: absolute;
+  bottom: 0;
+  right: 0;*/
+}
+
+.header_style .meta_style {
+  font-weight: var(--font-weight-regular);
+  color: var(--color-gray-medium);
+  font-style: italic;
+}
+
+.header_style a {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-regular);
+}
+
+.title_container {
+  position: relative;
+  padding-left: 15px;
+}
+
+.caret_button {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+}
+
+.from_group {
+  color: var(--color-gray-medium);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  padding-bottom: 5px;
+}
+
+.from_group a {
+  color: var(--color-primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.isYou {
+  font-weight: var(--font-weight-bold);
+}
+
+.group_footer {
+  padding: 10px 15px;
+  padding-top: 0px;
+  margin-bottom: 25px;
+}
+
+.group_footer_title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--color-gray-medium);
+}
+
+.group_footer_buttons_container {
+}
+
+.group_footer_button {
+}
+
+@media screen and (max-width: 700px) {
+  .timeStamp {
+    display: none;
+  }
+  .altScore {
+    display: none;
+  }
+
+  .score_container {
+    width: 185px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .each_template_style {
+    padding: 6px 9px;
+  }
+
+  .group_of_evaluations {
+    padding: 20px 0px;
+  }
+
+  .score_container {
+    width: 120px;
+  }
+  /*
+  .eye_toggle {
+    display: none;
+  }*/
+}

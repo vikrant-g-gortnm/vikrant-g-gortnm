@@ -1,0 +1,54 @@
+.container {
+  border-radius: 3px;
+  color: var(--color-gray-dark);
+  background: var(--color-gray-pale);
+  border: 1px solid var(--color-gray-light);
+  padding: 3px 12px;
+  box-sizing: border-box;
+  max-width: 100%;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px;
+  margin-top: 4px;
+  position: relative;
+}
+
+.kill_tag {
+  padding-right: 30px;
+}
+
+.kill_button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid var(--color-gray-light);
+  width: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-gray-medium);
+}
+
+.kill_button i {
+}
+
+/* .content { */
+/*white-space: nowrap;*/
+/* } */
+
+.active_tag {
+  background: white;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.active_tag a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.button_tag {
+  cursor: pointer;
+}

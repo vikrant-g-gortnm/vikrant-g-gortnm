@@ -1,0 +1,63 @@
+.icon,
+.icon:active,
+.icon:hover,
+.icon:visited {
+  color: var(--color-gray-dark);
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: var(--color-primary);
+}
+
+.icon.current_route {
+  color: var(--color-primary);
+}
+
+.icon i {
+  font-size: 18px;
+  display: block;
+}
+
+.label_style {
+  font-size: 11px;
+}
+
+.large_style .label_style {
+  font-size: 14px;
+}
+
+.icon.horizontal_style {
+  position: relative;
+  display: block;
+  width: 140px;
+  padding: 20px;
+}
+
+.icon.horizontal_style i {
+  position: absolute;
+}
+
+.icon.horizontal_style .label_style {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.notification_counter {
+  font-size: 10px;
+  color: white;
+  background: var(--color-primary);
+  border-radius: 7px;
+  padding: 0px 5px;
+  position: absolute;
+  left: -5px;
+  top: 2px;
+}
+
+.icon.horizontal_style .notification_counter {
+  top: 22px;
+}

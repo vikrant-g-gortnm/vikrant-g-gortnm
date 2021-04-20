@@ -1,0 +1,16 @@
+/* Created By : Siva */
+/* Date : 8/04/2021 */
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: var(--ui-color-primary-green-dark2) !important;
+}
+
+.MuiTab-textColorPrimary {
+  color: var(--ui-color-primary-green-dark2) !important;
+}
+
+.PrivateTabIndicator-colorPrimary-2 {
+  background-color: var(--ui-color-primary-green-dark2) !important;
+  height: 5px !important;
+  border-radius: 6px !important;
+}

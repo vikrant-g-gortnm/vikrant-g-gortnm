@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 7px;
+  color: #e5646a;
+  background: rgba(229, 100, 106, 0.1);
+}
+
+.title_style {
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 10px;
+}
+
+.content {
+}

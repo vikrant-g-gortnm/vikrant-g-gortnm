@@ -1,0 +1,64 @@
+.share_title {
+  font-size: 18px;
+}
+
+.share_description {
+  color: var(--color-gray-medium);
+  padding: 14px 0px;
+  font-size: 14px;
+}
+
+.icon_item {
+  color: var(--color-gray-light);
+  padding: 0px 5px;
+}
+
+.shared_by_list {
+  line-height: 2.4;
+}
+
+.shared_by_item {
+  font-size: 14px;
+  cursor: pointer;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+}
+
+.shared_by_item span {
+  opacity: 0.5;
+}
+
+.shared_by_item i {
+  /*color: var(--color-primary);*/
+  color: var(--color-gray-light);
+  font-size: 10px;
+  padding-right: 3px;
+  position: relative;
+  top: 0px;
+}
+
+.button_class {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.action_link {
+  color: var(--color-primary);
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.add_all_container {
+  padding: 15px 0px;
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+.add_all_description {
+  padding-bottom: 10px;
+  color: var(--color-gray-medium);
+}
+
+.add_all_description p {
+  margin: 0px;
+}

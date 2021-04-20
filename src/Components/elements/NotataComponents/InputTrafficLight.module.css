@@ -1,0 +1,83 @@
+.traffic_light {
+  display: flex;
+}
+
+.traffic_light span {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 40px;
+  font-size: 18px;
+}
+
+.traffic_red,
+.traffic_yellow,
+.traffic_green {
+  width: 110px;
+  height: 110px;
+  padding: 0px;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.traffic_red {
+  color: var(--color-red);
+}
+
+.traffic_yellow {
+  color: var(--color-yellow);
+}
+
+.traffic_green {
+  color: var(--color-green);
+}
+
+.selected_traffic_light.traffic_red,
+.selected_traffic_light.traffic_yellow,
+.selected_traffic_light.traffic_green {
+  color: white;
+}
+
+.traffic_red:before,
+.traffic_yellow:before,
+.traffic_green:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  opacity: 0.3;
+}
+
+.selected_traffic_light.traffic_red:before,
+.selected_traffic_light.traffic_yellow:before,
+.selected_traffic_light.traffic_green:before {
+  opacity: 1;
+}
+
+.traffic_red:before {
+  background: var(--color-red);
+}
+
+.traffic_yellow:before {
+  background: var(--color-yellow);
+}
+
+.traffic_green:before {
+  background: var(--color-green);
+}
+
+@media screen and (max-width: 1101px) {
+  .traffic_red,
+  .traffic_yellow,
+  .traffic_green {
+    width: 80px;
+    height: 80px;
+    margin: 13px;
+  }
+
+  .traffic_light span {
+    top: 29px;
+    font-size: 14px;
+  }
+}

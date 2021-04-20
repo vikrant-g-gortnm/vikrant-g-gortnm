@@ -1,0 +1,35 @@
+.selector {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.each_select {
+  width: 16%;
+  padding: 1px 4px;
+  cursor: pointer;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+.selected_each {
+  filter: none;
+}
+
+.each_loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: var(--color-gray-dark);
+  text-shadow: 0px 0px 3px white;
+}
+
+.each_select img {
+  width: 100%;
+}

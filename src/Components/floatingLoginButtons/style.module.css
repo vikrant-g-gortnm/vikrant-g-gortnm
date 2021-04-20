@@ -1,0 +1,33 @@
+/* FLOATING BUTTON CSS STARTS HERE */
+.floating_loginButtons{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 260px;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:940px){
+    .floating_loginButtons{
+      position: relative;
+      margin: auto;
+      top: 0;
+      right: 0;
+      margin-top: 20px;
+      width: 339px;
+    }
+    .floating_loginButtons button{
+        width: 45% !important;
+        height: 40px;
+    }
+  }
+  @media screen and (max-width:422px){
+    .floating_loginButtons{
+          position: fixed;
+          top: 85% !important;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 85%;
+          height: 43px;
+      }
+  }

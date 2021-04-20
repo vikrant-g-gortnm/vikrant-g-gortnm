@@ -1,0 +1,13 @@
+.delete_bucket {
+  position: relative;
+  left: 6px;
+  color: var(--color-primary);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-gray-medium);
+  margin-bottom: 40px;
+}

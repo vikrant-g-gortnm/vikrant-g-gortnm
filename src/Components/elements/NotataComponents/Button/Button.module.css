@@ -1,0 +1,272 @@
+.button_container {
+  border: none;
+  outline: none;
+  background: white;
+  /*background-color: var(--color-primary);*/
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  /*color: white;*/
+  border-radius: 4px;
+  padding: 13px 30px 13px 30px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+.secondary_style {
+  color: var(--color-gray-dark);
+  background: var(--color-gray-pale);
+  border: 1px solid var(--color-gray-light);
+}
+
+.danger_style {
+  color: white;
+  background: var(--color-primary);
+}
+.danger_style i {
+  color: white;
+}
+
+/* Default (large) */
+.icon_padding {
+  padding-right: 50px;
+}
+
+.icon_padding_left {
+  padding-right: 50px;
+}
+
+.chevron_icon {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  top: 5px;
+}
+
+.chevron_icon_left {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+}
+
+.chevron_icon_left i {
+  color: var(--color-primary);
+  position: relative;
+  top: 8px;
+  left: 2px;
+  font-size: 14px;
+}
+
+.chevron_icon i {
+  color: var(--color-primary);
+  position: relative;
+  top: 8px;
+  left: 2px;
+  font-size: 14px;
+}
+
+.loading_icon {
+  /*color: white;*/
+  color: var(--color-primary);
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  right: 6px;
+  top: 3px;
+}
+
+.loading_icon i {
+  position: relative;
+  top: 8px;
+  left: 2px;
+  font-size: 19px;
+}
+
+/* Large button */
+.large_button {
+  padding: 13px 50px 13px 30px;
+}
+
+.large_left_button {
+  padding: 13px 30px 13px 50px;
+}
+
+.large_button.icon_padding {
+  padding-right: 50px;
+}
+
+.large_button .chevron_icon {
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  top: 5px;
+}
+
+.large_button .chevron_icon i {
+  top: 8px;
+  left: 2px;
+  font-size: 14px;
+}
+
+.large_button .loading_icon {
+  width: 35px;
+  height: 35px;
+  right: 6px;
+  top: 3px;
+}
+
+.large_button .loading_icon i {
+  top: 8px;
+  left: 2px;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 900px) {
+  .large_button {
+    width: 100%;
+  }
+}
+
+/* Medium button */
+.medium_button {
+  padding: 8px 30px 8px 30px;
+  font-size: 12px;
+}
+
+.medium_button.icon_padding {
+  padding-right: 40px;
+}
+
+.medium_button .chevron_icon {
+  width: 24px;
+  height: 24px;
+  right: 3px;
+  top: 3px;
+}
+
+.medium_button .chevron_icon i {
+  top: 6px;
+  left: 2px;
+  font-size: 13px;
+  /*font-weight: 600;*/
+}
+
+.medium_button .loading_icon {
+  width: 30px;
+  height: 30px;
+  right: 3px;
+  top: 0px;
+}
+
+.medium_button .loading_icon i {
+  top: 8px;
+  left: 2px;
+  font-size: 14px;
+}
+
+/* Small button */
+.small_button {
+  padding: 6px 20px 6px 20px;
+  font-size: 10px;
+}
+
+.small_button.icon_padding {
+  padding-right: 30px;
+}
+
+.small_button .chevron_icon {
+  width: 19px;
+  height: 19px;
+  right: 2px;
+  top: 2px;
+}
+
+.small_button .chevron_icon i {
+  top: 4px;
+  left: 1px;
+  font-size: 9px;
+}
+
+.small_button .loading_icon {
+  width: 22px;
+  height: 22px;
+  right: 3px;
+  top: 0px;
+}
+
+.small_button .loading_icon i {
+  top: 6px;
+  left: 2px;
+  font-size: 12px;
+}
+
+/* Input button */
+.input_button_wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input_button_icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  pointer-events: none;
+}
+
+.input_button_wrapper .medium_button .loading_icon i {
+  top: 6px;
+}
+
+.input_button_wrapper .medium_button .chevron_icon i {
+  top: 3.5px;
+}
+
+/* Other button */
+.tiny_right_button_container {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  user-select: none;
+}
+
+.tiny_right_button_container i {
+  color: var(--color-primary);
+}
+
+/* Text Button */
+
+.text_button {
+  outline: none;
+  border: none;
+  color: var(--color-primary);
+  background: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text_button:hover,
+.text_button:focus,
+.text_buttons:active {
+  outline: none;
+  border: none;
+  color: var(--color-primary-select);
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
