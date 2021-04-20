@@ -4,7 +4,7 @@ import { frontpage } from "definitions.js";
 import { History } from "history";
 
 // STYLE
-import styles from "./Header.module.css";
+import styles from "./header.module.css";
 
 const classnames = require("classnames");
 

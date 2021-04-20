@@ -16,13 +16,76 @@
   left: 0;
   top: 0px;
   height: 100vh;
-  z-index: 1003;
+  z-index: 100773;
   transition: all 450ms;
   /* animation: 1s fadeIn;
   animation-fill-mode: forwards;
   animation-fill-mode: backwards; */
 }
-
+.mobile_toggler{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  display: none;
+  z-index: 8;
+}
+.mobile_togglerInSidebar{
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  display: none;
+}
+.mobile_togglerInSidebar i{
+  font-weight: 700;
+  font-size: 17px;
+}
+.profile_item{
+  display: none;
+}
+@media screen and (max-width:769px){
+  .logo_container{
+    width: 80%;
+    height: 95px;
+    margin: auto;
+    border-bottom: 1px solid #BFBFBF;
+  }
+  .main_sidebar{
+    position: absolute;
+    width: 0;
+    font-weight: 700;
+  }
+  .mobile_togglerInSidebar{
+    display: block;
+  }
+  .mobile_toggler i{
+    font-weight: 700;
+  }
+  .menu_lists{
+    padding-top: 44px !important;
+  }
+  .desktop_sidebarCollapser{
+    display: none;
+  }
+  .sidebar_container{
+    left: -290px;
+    width: 260px;
+    transition: all;
+    transition-duration: .5s;
+  }
+  .mobile_toggler{
+    display: block;
+  }
+  .sidebar_container .logo{
+    width: 30px;
+    height: 30px;
+  }
+  .sidebar_container .profile_item{
+    display: block !important;
+  }
+}
+.active_sidebar{
+  left: 0px !important;
+}
 /* Remove When Styled Scroll Will Be Added */
 .sidebar_container::-webkit-scrollbar {
   width: 5px;
@@ -84,8 +147,9 @@
 }
 
 .sidebar_container .menu_lists {
-  padding-left: 34px;
   padding-top: 174px;
+  width: 80%;
+  margin: auto;
   /* height: 210px; */
 }
 
@@ -96,6 +160,7 @@
   font-weight: normal;
   margin-bottom: 35px;
   position: relative;
+  width: 100%;
 }
 
 .menu_last{
@@ -113,6 +178,7 @@
 .active_open .icons {
   color: #ff8166 !important;
 }
+
 .active_close i {
   color: #969ba3 !important;
 }
@@ -131,14 +197,21 @@
   margin-right: 15px;
   width: 25px;
 }
+.sidebar_container .icons img{
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+  display: inline;
+}
 .sidebar_container .icons i {
   font-size: 18px;
 }
-
+.sidebar_container .profile_item{
+  display: none;
+}
 .sidebar_container .list {
-  width: 81px;
-  padding-top: 2px;
   font-size: 14px;
+  padding-top: 4px;
   /* line-height: 17px; */
   /* identical to box height */
   letter-spacing: 0.02em;
@@ -200,7 +273,7 @@
   background: linear-gradient(152.3deg, #ffb28c 9.47%, #ff8c78 93.11%);
 }
 .sidebar_container1 .lasthr{
-  left: 2px;
+  width: 100%;
 }
 
 /* @keyframes fadeIn {
@@ -221,10 +294,11 @@
 }
 
 .sidebar_container1 .menu_lists {
-  padding-left: 28px;
-  padding-right: 28px;
   padding-top: 174px;
   transition: all 450ms;
+  width: 75%;
+  margin: auto;
+  text-align: center;
 }
 .sidebar_container1 i{
   color: #BFBFBF;
@@ -235,19 +309,20 @@
   font-weight: normal;
   margin-bottom: 35px;
   position: relative;
+  width: 100%;
+  text-align: center;
 }
 .lasthr{
   position: absolute;
   height: 1px;
   background-color: #D7D7D7;
-  width: 90%;
-  top: -20px;
-  left: -5px;
+  width: 100%;
+  top: -30px;
 }
 
 .sidebar_container1 .icons {
   color: #bfbfbf;
-  width: 25px;
+  width: 100%;
   text-align: center;
 }
 

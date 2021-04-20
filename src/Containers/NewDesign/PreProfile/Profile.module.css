@@ -101,22 +101,6 @@ label {
     line-height: 22px;
     letter-spacing: 0.03em;
 }
-@media screen and (min-width: 1400px){
-    .button_container_justify{
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        max-width: 600px;
-        transform: translateX(-50%);
-    }
-    .button_container{
-        position: fixed;
-        bottom: 40px;
-        left: 50%;
-        max-width: 600px;
-        transform: translateX(-50%);
-    }
-}
 @media screen and (max-width:500px){
     .profile_onboard input{
         width: 100%;
