@@ -18,6 +18,7 @@
 
 .input_label input {
   color: #6a6a6a !important;
+  max-width: 100%;
 }
 
 input::placeholder {
@@ -51,6 +52,7 @@ input::placeholder {
   padding: 10px 22px !important;
   width: 340px;
   margin-top: 0px;
+  max-width: 100%;
 }
 
 .redStyle {
@@ -135,7 +137,7 @@ input::placeholder {
   padding: 0 10px;
 }
 
-span {
+.container span {
   margin-top: 5px !important;
 }
 .input_pass {

@@ -152,7 +152,9 @@ error
   top: 0;
   left: 0;
 }
-
+.auth_structure_left input{
+  max-width: 100%;
+}
 @media screen and (max-width:940px){
   .auth_structure{
     flex-direction: column;

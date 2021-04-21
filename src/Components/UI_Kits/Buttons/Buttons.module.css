@@ -9,6 +9,7 @@
   text-transform: uppercase;
   text-align: center;
   margin: 2px;
+  margin-top: 0;
 }
 
 /*colors*/
@@ -111,7 +112,6 @@
 .plus_icon i {
   font-size: 10px;
   font-weight: 900;
-  padding-bottom: 8px;
   padding-right: 4px;
 }
 
@@ -191,16 +191,18 @@
   position: absolute;
   text-align: center;
   width: 30px;
-  height: 30px;
   right: 5px;
-  top: 2px;
+  height: 100%;
 }
 .right_icon i {
-  position: relative;
+  position: absolute;
   font-weight: 500;
   left: 2px;
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
 
 /* small button back*/
@@ -222,15 +224,18 @@
 .left_icon {
   position: absolute;
   width: 30px;
-  height: 30px;
   left: 5px;
-  top: 2px;
+  display: flex;
+  height: 100%;
 }
 .left_icon i {
-  position: relative;
+  position: absolute;
   font-weight: 500;
   right: 2px;
-  font-size: 16px;
+  font-size: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
 }
 
 /* small2 button */

@@ -72,7 +72,6 @@ export const Tags = ({
             className={classnames(getTagButtons(tagButtons))}
             key={item.id}
             type="button"
-            style={{ paddingBottom: "3px" }}
             onClick={() => {
               // The tags array should consist of object, not strings
               // see src/Apollo/Fragments => any tag related file

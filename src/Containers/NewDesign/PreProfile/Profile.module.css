@@ -43,6 +43,8 @@
     font-family: var(--proxima);
     max-width: 100vw;
     overflow: hidden;
+    transition: all;
+    transition-duration: 1s;
 }
 .tabs_section {
     display: flex;
@@ -101,22 +103,28 @@ label {
     line-height: 22px;
     letter-spacing: 0.03em;
 }
+.button_container_justify button{
+    height: 33px;
+}
+.button_container button{
+    height: 33px;
+}
 @media screen and (max-width:500px){
     .profile_onboard input{
         width: 100%;
     }
     .button_container button{
         height: 30px;
-        width: 103px !important;
+        width: 113px !important;
         font-size: 12px !important;
     }
     .button_container i{
         font-size: 12px;
     }
     .button_container_justify button{
-        height: 30px;
-        width: 103px !important;
+        width: 113px !important;
         font-size: 12px !important;
+        height: 30px;
     }
     .button_container_justify  i{
         font-size: 12px;

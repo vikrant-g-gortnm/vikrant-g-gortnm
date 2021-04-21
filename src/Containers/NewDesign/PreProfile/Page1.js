@@ -148,8 +148,8 @@ export default function Page1({ setPage }) {
           style={{
             margin: "0",
             padding: "0",
-            marginTop: "20px",
-            marginBottom: "10px",
+            marginTop: "25px",
+            marginBottom: "20px",
           }}
         >
           Who are you?

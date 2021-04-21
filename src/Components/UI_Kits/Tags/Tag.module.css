@@ -110,14 +110,13 @@
 /* big Tag*/
 .bigTag {
   position: relative;
-  min-width: 40px;
   /* width: 66px; */
   height: 24px;
   background: var(--ui-color-gray-dark1);
   border-radius: 12px;
-  line-height: 4px;
   margin: 0 8px 7px 0;
-  padding: 0px 8px;
+  padding: 4px 15px;
+  padding-top: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +148,7 @@
 /* big tag name*/
 .bigTagName {
   margin-right: 15px;
-  margin-bottom: 6.5px;
+  margin-bottom: 1.5px;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -173,7 +172,6 @@
 
 /* small close icon*/
 .tag_bigClose_icon {
-  position: absolute;
   right: 7px;
   top: 0px;
   font-size: 15px;
@@ -202,17 +200,17 @@
 
 /* big buttons*/
 .tagBigButton {
-  min-width: 35px;
-  height: 24px;
+  min-width: 35px;;
   background: var(--ui-color-gray-dark7);
-  border-radius: 12px;
+  border-radius: 20px;
   /* font-family: Roboto; */
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.03em;
   color: var(--ui-color-gray-dark6);
-  padding: 3px 10px;
+  padding: 4px 15px;
+  padding-bottom: 6px;
   margin: 6px 3px;
   border: 0px;
   text-align: center;
