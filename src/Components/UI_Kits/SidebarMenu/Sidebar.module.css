@@ -45,7 +45,7 @@
 @media screen and (max-width:769px){
   .logo_container{
     width: 80%;
-    height: 95px;
+    height: 79px;
     margin: auto;
     border-bottom: 1px solid #BFBFBF;
   }
@@ -61,7 +61,7 @@
     font-weight: 700;
   }
   .menu_lists{
-    padding-top: 44px !important;
+    padding-top: 28px !important;
   }
   .desktop_sidebarCollapser{
     display: none;
@@ -337,3 +337,17 @@
   position: absolute;
   top: 516px;
 } */
+.menu_listSettings{
+  border-top: 1px solid #BFBFBF;
+  padding-top: 29px;
+  margin-top: 120px !important;
+}
+.menu_listSettings i{
+  margin-top: 5px;
+}
+@media screen and (max-width:769px){
+  .menu_listSettings{
+    margin-top: 0 !important;
+    margin-bottom: 32px !important;
+  }
+}

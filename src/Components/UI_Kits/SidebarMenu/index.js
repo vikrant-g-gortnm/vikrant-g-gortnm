@@ -42,32 +42,26 @@ export function SideBarMenu() {
     {
       label: "News",
       iconClass: "fas fa-globe",
-      iconStyle: { marginBottom: "90px", paddingTop: "2px" },
+      iconStyle: { paddingTop: "2px" },
       link: "",
-    },
-    {
-      label: "settings",
-      iconClass: "fas fa-cog",
-      iconStyle: { paddingTop: "3px" },
-      link: settings,
-    },
+    }
   ];
 
   const openSidebar = () => {
-    sidebarr.current.style.left= "0px";
-    floatingButonn.current.style.display= "none";
+    sidebarr.current.style.left = "0px";
+    floatingButonn.current.style.display = "none";
   }
-  
+
   const closeSidebar = () => {
-    sidebarr.current.style.left= "-290px";
-    floatingButonn.current.style.display= "block";
+    sidebarr.current.style.left = "-290px";
+    floatingButonn.current.style.display = "block";
   }
   return (
     <div className={styles.main_sidebar}>
       <div
         ref={sidebarr}
         className={classnames(
-          !listOpen ? styles.sidebar_container: styles.sidebar_container1
+          !listOpen ? styles.sidebar_container : styles.sidebar_container1
         )}
       >
         <div className={styles.logo_container}>
@@ -95,17 +89,13 @@ export function SideBarMenu() {
           </span>
         </div>
         <div>
-        <div className={styles.mobile_toggler} ref={floatingButonn} onClick={openSidebar}> <i className={`fal fa-chevron-${listOpen ?  "left" : "right"}`} /></div>
+          <div className={styles.mobile_toggler} ref={floatingButonn} onClick={openSidebar}> <i className={`fal fa-chevron-${listOpen ? "left" : "right"}`} /></div>
         </div>
         {/* Main navigation icons */}
         <div className={styles.menu_lists}>
           {menuList.map((item, i) => (
             <React.Fragment>
               <div key={i} className={styles.menu_list}>
-                {item.label === "settings" && (
-                  <div className={styles.lasthr}></div>
-                )}
-
                 <NavLink
                   exact={true}
                   to={item.link}
@@ -122,25 +112,42 @@ export function SideBarMenu() {
                   <p className={styles.list}>{item.label}</p>
                 </NavLink>
               </div>
-            
+
             </React.Fragment>
           ))}
-          <div className={styles.menu_list} className={styles.profile_item} style={{paddingTop:'30px', borderTop:'1px solid #BFBFBF'}}>
+
+          <div className={styles.menu_list + " " + styles.menu_listSettings}>
                 <NavLink
                   exact={true}
-                  to={"/profile"}
+                  to="/settings"
                   activeClassName={classnames(
                     !listOpen ? styles.active_open : styles.active_close
                   )}
-                  style={{display:'flex'}}
                 >
-                  <div className={styles.icons} style={{marginTop:'5px'}}>
-                    <img src="https://www.clipartmax.com/png/small/171-1717870_stockvader-predicted-cron-for-may-user-profile-icon-png.png" alt="img"/>
+                  <div className={styles.icons}>
+                    <i
+                      className="fas fa-cog"
+                    />
                   </div>
-                  <p className={styles.list}>Profile Name</p>
+                  <p className={styles.list}>settings</p>
                 </NavLink>
+          </div>
+          <div className={styles.menu_list} className={styles.profile_item} style={{ paddingTop: '30px', borderTop: '1px solid #BFBFBF' }}>
+            <NavLink
+              exact={true}
+              to={"/profile"}
+              activeClassName={classnames(
+                !listOpen ? styles.active_open : styles.active_close
+              )}
+              style={{ display: 'flex' }}
+            >
+              <div className={styles.icons} style={{ marginTop: '5px' }}>
+                <img src="https://www.clipartmax.com/png/small/171-1717870_stockvader-predicted-cron-for-may-user-profile-icon-png.png" alt="img" />
               </div>
-            
+              <p className={styles.list}>Profile Name</p>
+            </NavLink>
+          </div>
+
 
         </div>
       </div>
